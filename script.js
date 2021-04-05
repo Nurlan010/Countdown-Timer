@@ -3,7 +3,7 @@ const hoursel=document.querySelector('#hours');
 const minsel=document.querySelector('#mins');
 const secondsel=document.querySelector('#seconds');
 
-const newYear="1 Jan 2021";
+const newYear="1 Jan 2022";
 countdown();
 function countdown(){
 const newYearsDate=new Date(newYear);
